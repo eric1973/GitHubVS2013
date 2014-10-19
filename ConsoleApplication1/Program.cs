@@ -17,8 +17,9 @@ class Program
         };
 
         // Invoke the event.
+        Console.WriteLine("main(): before async event call");
         _show.Invoke();
-        Console.WriteLine("after invoke");
+        Console.WriteLine("main(): after async event invoke");
         Console.ReadLine();
     }
 }
